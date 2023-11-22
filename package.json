@@ -10,20 +10,24 @@
   },
   "dependencies": {
     "@prisma/client": "^5.6.0",
+    "@tanstack/react-query": "^5.8.4",
+    "@tanstack/react-query-next-experimental": "^5.8.4",
     "@types/styled-components": "^5.1.30",
     "axios": "^1.6.2",
     "https": "^1.0.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-flagkit": "^2.0.4",
     "react-select": "^5.8.0",
+    "react-world-flags": "^1.6.0",
     "styled-components": "^6.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-select": "^5.0.1",
+    "@types/react-world-flags": "^1.4.5",
     "prisma": "^5.6.0",
     "ts-node": "^10.9.1",
     "typescript": "^5"

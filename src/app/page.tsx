@@ -1,9 +1,11 @@
-import Flag from "react-flagkit";
+import Link from "next/link";
 
 export default function Home() {
 	return (
 		<>
-			<Flag country="US" />
+			<Link href={"/game/classic"}>
+				Clássico
+			</Link>
 		</>
 	)
 }
