@@ -5,11 +5,7 @@ import { useEffect, useState } from "react";
 import ReactSelect, { OptionProps, components } from "react-select";
 import Flag from 'react-world-flags';
 import { OptionContainer } from "./style";
-
-interface SelectFields {
-    value: string;
-    label: string;
-}
+import { SelectFields } from "@/app/game/classic/page";
 
 export default function SelectCountries() {
     const id = Date.now().toString();

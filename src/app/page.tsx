@@ -6,6 +6,9 @@ export default function Home() {
 			<Link href={"/game/classic"}>
 				Clássico
 			</Link>
+			<Link href={"/game/alternate"}>
+				Alternativo
+			</Link>
 		</>
 	)
 }
